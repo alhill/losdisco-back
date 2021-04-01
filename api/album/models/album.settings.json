@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "albums",
+  "info": {
+    "name": "album",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "zone": {
+      "model": "zone",
+      "via": "albums"
+    },
+    "artists_sort": {
+      "type": "string"
+    },
+    "full_artist_list": {
+      "type": "json"
+    },
+    "genres": {
+      "type": "json"
+    },
+    "images": {
+      "type": "json"
+    },
+    "labels": {
+      "type": "json"
+    },
+    "master_url": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "text"
+    },
+    "release": {
+      "type": "integer"
+    },
+    "resource_url": {
+      "type": "string"
+    },
+    "styles": {
+      "type": "json"
+    },
+    "thumb": {
+      "type": "string"
+    },
+    "tracklist": {
+      "type": "json"
+    },
+    "uri": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "extraartists": {
+      "type": "json"
+    },
+    "album_format": {
+      "type": "string"
+    }
+  }
+}
