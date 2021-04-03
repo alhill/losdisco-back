@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/subzones",
+      "handler": "subzone.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/subzones/count",
+      "handler": "subzone.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/subzones/:id",
+      "handler": "subzone.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/subzones",
+      "handler": "subzone.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/subzones/:id",
+      "handler": "subzone.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/subzones/:id",
+      "handler": "subzone.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

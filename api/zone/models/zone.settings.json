@@ -27,6 +27,10 @@
     "albums": {
       "via": "zone",
       "collection": "album"
+    },
+    "subzones": {
+      "via": "zone",
+      "collection": "subzone"
     }
   }
 }

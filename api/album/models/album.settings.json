@@ -65,6 +65,14 @@
     },
     "album_format": {
       "type": "string"
+    },
+    "subzone": {
+      "via": "albums",
+      "model": "subzone"
+    },
+    "genresRel": {
+      "via": "albums",
+      "collection": "genre"
     }
   }
 }
